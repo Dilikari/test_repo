@@ -270,9 +270,102 @@ import operator
 # string = "Python Software Foundation"
 # print(string.count("o"))
 
-x = 5
-y = 10
-temp = x
-x = y
-y = temp
-print(x, y)
+# n = int(input('Введите натуральное число не более 100: '))
+#
+# if n < 1 or n > 100:
+#     print("Неверно введено натуральное число")
+# else:
+#     p = 1
+#     for i in range(1, n + 1):
+#         p*= i
+#
+#     print(f"факториал {n}! = {p}")
+
+# a = 31
+# b = 33
+# if b > a:
+#   print("b больше чем a")
+# elif a == b:
+#   print("a и b равны")
+
+# a = 200
+# b = 33
+# if b > a:
+#   print("b больше чем a")
+# elif a == b:
+#   print("a и b равны")
+# else:
+#   print("a больше чем b")
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def say_hello(self):
+#             print(f"привет, {self.name}!")
+#
+# person = Person('alisa')
+# person.say_hello()
+
+
+# n = int(input("введите натуральное число не более 100: "))
+#
+# if n < 1 or n >100:
+#     print("неверно введенно натур чисдл")
+# else:
+#     p = 1
+#     for i in range(1, n+1):
+#         p*= i
+#
+#     print(f"факториал {n}! = {p}")
+
+# digs = [4, 3, 100, -55, -44, 34, -9]
+# for i in range(len(digs)):
+#     if 10 <= abs(digs[i]) <= 99:
+#         digs[i] = 0
+#
+# print(digs)
+
+
+# #d = [2,5,89,3,11,45]
+# it = iter("fkkkd")
+# print(next(it))
+# print(next(it))
+# print(next(it))
+# print(next(it))
+# print(next(it))
+# print(next(it))
+# print(next(it))
+
+# d = ['Москва', 'Лондон', 'Берлин', 'Пекин']
+# it = iter(d)
+# print(next(it))
+# print(next(it))
+# print(next(it))
+
+# for i in range(1, 4):
+#     for j in range(1, 6):
+#         print(f' i = {i}, j = {j}', end = " ")
+#     print()
+
+# a = [[1, 2, 5, 8], [1, 5, 8, 9], [7, 9, 2, 6]]
+# b = [[1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3]]
+# c = []
+# for i, row in enumerate(a):
+#     r = []
+#     for j, x in enumerate(row):
+#         r.append(x + b[i][j])
+#     c.append(r)
+#
+# print(c)
+
+# n = iter(input())
+#
+# response = ""
+# while True:
+#     x = next(n)
+#
+#     if x == " ":
+#         break
+#     else:
+#         response += x
+# print(response)
